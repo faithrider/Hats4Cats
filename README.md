@@ -32,6 +32,6 @@ Backend - Python - Design backend:
   * How to use hat metadata to rotate hat around midpoint?
   * How to export flattened photo?
 
-Meta - Code repo - Where are we storing everything?  
+Meta - Code repo - Where are we storing everything? (DONE)  
 Meta - Liveshare - How are we pair-programming (if at all?)  
-Meta - Tasking - How are we displaying this document?  
+Meta - Tasking - How are we displaying this document? (DONE)  
