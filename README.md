@@ -9,7 +9,7 @@ If a task is done, please write (DONE) next to the task.
 
 ### Tasking
 
-Design - Draw Hats - Need at least either three hats of different orientation (left, front, right) or three different hats one of each of those orientations. (Faith)
+Design - Draw Hats - Need at least either three hats of different orientation (left, front, right) or three different hats one of each of those orientations. (DONE)
   
 Design - Design UX/UI - How is the user uploading a picture? What will the "look" look like?
 
