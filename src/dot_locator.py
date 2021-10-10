@@ -4,11 +4,10 @@ import numpy as np
 from PIL import Image
 import math
 
-# Load image and ensure RGB - just in case palettised
+hats = ['fez_dot.png', 'party_hat_dot.png', 'santa_hat_dot.png', 'straw_hat_dot.png', 'top_hat_dot.png']
 
-for i in range(1, 5):
-        name = '../samples/image' + str(i).zfill(3) + '_dots.jpg'
-        print(name)
+# Load image and ensure RGB - just in case palettised
+def find_dot(name):
         im = Image.open(name).convert("RGB")
         #im=Image.open('../samples/image001_crop.jpg').convert("RGB")
 
@@ -47,3 +46,13 @@ for i in range(1, 5):
                 ArrayX.append(dotx)
                 ArrayY.append(doty)
                 print(str(n) + ', ' + str(dotx) + ', ' + str(doty))
+
+for i in range(1, 5):
+        name = '../cats/image' + str(i).zfill(3) + '_dots.jpg'
+        print(name)
+        find_dot(name)
+
+for hat in hats:
+        name = '../hats/' + hat
+        print(name)
+        find_dot(name)
